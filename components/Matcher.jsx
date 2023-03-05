@@ -1,10 +1,4 @@
 import { useState } from "react";
-import { Configuration, OpenAIApi } from "openai";
-
-const configuration = new Configuration({
-    organization: "org-nVmIF8tDllpbjxMq3CDGxgVH",
-    apiKey: process.env.API_KEY
-})
 
 export default function Matcher() {
     const [data, setData] = useState(null);
